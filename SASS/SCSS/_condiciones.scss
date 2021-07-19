@@ -1,0 +1,38 @@
+// if (tu viejo === zapatero) {
+  //  zarpale la lata
+//} else {
+ //   ranchamo en la esquina
+// }
+
+@mixin condicion($colores) {
+    background-color: $colores;
+    @if $colores == orange {
+        border: 1px solid black;
+       
+    } @else {
+        border: 2px dotted gray;
+    }
+}
+
+.bg-condicion {
+    @include condicion(orange);
+}
+
+.bg-dos {
+    @include condicion(green);
+}
+
+@mixin mas-condiciones($mortalazo) {
+    color: $mortalazo;
+    @if $mortalazo == green {
+        background-color: black;
+    } @else if $mortalazo == black {
+        background-color: white;
+    } @else {
+        background-color: gray;
+    }
+    }
+
+    .probando {
+        @include mas-condiciones(blue)
+    }

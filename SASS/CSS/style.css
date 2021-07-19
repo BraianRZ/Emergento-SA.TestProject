@@ -1,0 +1,173 @@
+@charset "UTF-8";
+/* Nesting anidamiento */
+section {
+  background-color: tomato;
+}
+section h1 {
+  color: black;
+}
+section h1 a {
+  text-decoration: underline;
+}
+section h1 a:hover {
+  text-decoration: none;
+}
+@media (max-widht: 768px) {
+  section {
+    background-color: khaki;
+  }
+}
+
+/* Variables */
+.carousel {
+  background-color: white;
+}
+
+/* Nesting anidamiento */
+section-menu {
+  background-color: tomato;
+}
+section-menu h1 {
+  color: black;
+}
+section-menu h1 a {
+  text-decoration: underline;
+}
+section-menu h1 a:hover {
+  text-decoration: none;
+}
+@media (max-widht: 768px) {
+  section-menu {
+    background-color: khaki;
+  }
+}
+
+/* Variables */
+.carousel {
+  background-color: white;
+  font-size: 44px;
+}
+
+/* Nesting anidamiento */
+section {
+  background-color: tomato;
+}
+section h1 {
+  color: black;
+}
+section h1 a {
+  text-decoration: underline;
+}
+section h1 a:hover {
+  text-decoration: none;
+}
+@media (max-widht: 768px) {
+  section {
+    background-color: khaki;
+  }
+}
+
+/* Variables */
+.carousel {
+  background-color: white;
+}
+
+/* Listas */
+.button {
+  color: green;
+}
+
+-button-not {
+  color: yellow;
+}
+
+.color-a {
+  color: red;
+}
+
+/* Extends */
+.accept, .error {
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.error {
+  background-color: red;
+}
+
+.accept {
+  background-color: green;
+}
+
+/* Mapas */
+/* Mapa y uso común */
+.standard {
+  background-color: #ff0000;
+}
+
+.premium {
+  background-color: gold;
+}
+
+/* Operadores */
+.seccion-principal {
+  widht: 50%;
+}
+.seccion-principal .img-1 {
+  widht: 100%;
+}
+
+.border-menu {
+  border: 1px solid #330000;
+}
+
+.bg-fotos {
+  background-color: #090;
+}
+.bg-fotos:hover {
+  background-color: lime;
+}
+
+.textos {
+  color: rgba(153, 0, 0, 0.8);
+}
+
+.section-loca {
+  background-color: #4d4d00;
+}
+
+.saturado {
+  color: #990000;
+}
+
+.varios {
+  widht: 100%;
+  height: 40vh;
+  display: flex;
+}
+
+.turbio {
+  border: 1px;
+  border-radius: 4px;
+  widht: 100%;
+  height: 40vh;
+  padding: 20px;
+}
+
+.bg-condicion {
+  background-color: orange;
+  border: 1px solid black;
+}
+
+.bg-dos {
+  background-color: green;
+  border: 2px dotted gray;
+}
+
+.probando {
+  color: blue;
+  background-color: gray;
+}
+
+/*# sourceMappingURL=style.css.map */

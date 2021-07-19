@@ -1,0 +1,32 @@
+/* Mapas */
+
+$social: (
+
+    youtube: red,
+    facebook: blue,
+    instagram: rgb(79, 79, 207)
+);
+  
+/* Mapa y uso común */
+
+$standard: (
+    color-standard: pink,
+    bg-color-standard: #ff0000,
+
+);
+
+$premium: (
+    color-premium: pink,
+    bg-color-premium: gold,
+);
+
+.standard {
+    background-color: map-get($standard , bg-color-standard);
+}
+
+.premium {
+    background-color: map-get($premium , bg-color-premium);
+}
+
+
+

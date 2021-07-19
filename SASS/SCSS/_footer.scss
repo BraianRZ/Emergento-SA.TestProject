@@ -1,0 +1,32 @@
+/* Nesting anidamiento */
+
+section {
+    background-color: tomato;
+    h1 {
+        color: black;
+        a{
+            text-decoration: underline;
+        
+            &:hover {
+                text-decoration: none;
+            }
+        
+        }
+
+
+    }
+
+    @media (max-widht: 768px) {
+        background-color: khaki;
+    }
+}
+
+/* Variables */
+
+$bg-color: white;
+$border: 1px solid #fff;
+$font-general: 44px; 
+
+.carousel {
+    background-color: $bg-color;
+}

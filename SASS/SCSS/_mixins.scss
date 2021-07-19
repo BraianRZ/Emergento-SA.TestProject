@@ -1,0 +1,35 @@
+@mixin prefijos {
+    border: 1px solid, black
+
+}
+
+.magic {
+
+}
+
+
+
+
+@mixin varios-parametros ($ancho, $height, $display) {
+    widht:$ancho;
+    height: $height;
+    display: $display;
+}
+
+.varios {
+    @include varios-parametros(100%, 40vh, flex);
+}
+
+@mixin KomoloZupo ($border, $radius) {
+    border: $border;
+    border-radius: $radius;
+    widht: 100%;
+    height: 40vh;
+    padding: 20px;
+
+}
+
+
+.turbio {
+    @include KomoloZupo(1px, 4px);
+}

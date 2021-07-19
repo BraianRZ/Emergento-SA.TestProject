@@ -1,0 +1,20 @@
+/* Listas */
+
+$colores: 
+red, 
+green, 
+yellow, 
+blue;
+
+.button {
+    color: nth($colores, 2);
+}
+
+-button-not {
+    color: nth($colores, 3);
+}
+
+.color-a {
+    color: nth($colores, 1);
+}
+

@@ -1,0 +1,490 @@
+*@font-face {
+	font-family: "Lato";
+	src: url(Lato-Regular.ttf);
+}
+
+p {
+	font-family: "Lato" ;
+}
+
+.bordesredondeados {
+	border-radius: 30px;
+}
+
+#milogo {
+	height: auto;
+	width: auto;
+}
+
+#logoo {
+	align-items: center;
+	align-content: center;
+	display: flex;
+	justify-content: center;
+	height: auto;
+	width: auto;
+}
+
+
+h1 {
+	color: blue; /*propiedad-color*/	
+}
+
+h2 {
+	color: black; /*propiedad-color*/
+}
+
+h3 {
+	color: black; /*propiedad-color*/
+}
+
+h4 {
+	color: black; /*propiedad-color*/
+}
+
+h5 {
+	color: black;
+	font-size: larger; /*propiedad-color*/
+}
+
+h6 {
+	color: black; /*propiedad-color*/
+}
+
+
+
+/*inicio Padre e hijo entre etiquetas*/
+
+section article p {
+	background-color: rgb(152, 197, 248);
+	color: black;
+	display: flexbox;
+	box-sizing: border-box;
+	flex-direction: row;
+	 padding: 10px;
+	 position:relative;
+	 align-content:flex-start;
+	 align-items:flex-start;
+	 text-align:justify;
+	 font-size: large;
+	 margin-left: 0px;
+	 margin-top: auto;
+	 height: 1300px;
+}
+
+
+/*Fin de Padre e hijo entre etiquetas*/
+
+.calend.jpg {
+  width: 50%;
+  height: 20px;
+}
+
+#calend {
+	display: flexbox;
+	height: 20px;
+}
+
+.encabezado__h1 {
+	font-size: 3em;
+	background-color: orange;
+	width: auto;
+	height: auto;
+	font-weight: 500px;
+	text-align: center;
+}
+
+#logoo {
+	align-items: center;
+	align-content: center;
+	display: flex;
+	justify-content: center;
+	height: auto;
+	width: auto;
+	
+}
+
+
+.subtitulos__h2 {
+	font-size: 30px;
+}
+
+.subtitulos__h3 {
+	font-size: 22px;
+}
+
+.piedepagina__h4 {
+	font-size: 22;
+}
+
+.piedepagina__h5 {
+	font-size: small;
+	text-align: center;
+	text-shadow: black;
+}
+
+.encabezado__index {
+	background-color: rgb(52, 73, 168);
+	color: whitesmoke;
+	display: inline-block;
+	padding: 10px;
+	box-sizing: border-box;
+	text-align: center;
+	margin: 5px 5px;
+	border-radius: 1em;
+	 border: 5px inset gray;
+	 font-size: medium;	 
+}
+
+.encabezado__servicios {
+	background-color: rgb(52, 73, 168);
+	color: whitesmoke;
+	display: inline-block;
+	padding: 10px;
+	box-sizing: border-box;
+	text-align: center;
+	margin: 5px 5px;
+	border-radius: 1em;
+	 border: 5px inset gray;
+	 font-size: medium;
+}
+
+.encabezado__capacitaciones {
+	background-color: rgb(52, 73, 168);
+	color: whitesmoke;
+	display: inline-block;
+	padding: 10px;
+	box-sizing: border-box;
+	text-align: center;
+	margin: 10px 5px;
+	border-radius: 1em;
+	 border: 5px inset gray;
+	 font-size: medium;
+}
+
+.encabezado__nosotros {
+	background-color: rgb(52, 73, 168);
+	color: whitesmoke;
+	display: inline-block;
+	padding: 10px;
+	box-sizing: border-box;
+	text-align: center;
+	margin: 10px 5px;
+	border-radius: 1em;
+	 border: 5px inset gray;
+	 font-size: medium;
+}
+
+.encabezado__direccion {
+	background-color: rgb(52, 73, 168);
+	color: whitesmoke;
+	display: inline-block;
+	padding: 10px;
+	box-sizing: border-box;
+	text-align: center;
+	margin: 10px 5px;
+	border-radius: 1em;
+	 border: 5px inset gray;
+	 font-size: medium;
+}
+
+.encabezado__ingresa {
+	background-color: rgb(52, 73, 168);
+	color: whitesmoke;
+	display: inline-block;
+	padding: 10px;
+	box-sizing: border-box;
+	text-align: center;
+	margin: 10px 5px;
+	border-radius: 1em;
+	 border: 5px inset gray;
+	 font-size: medium;
+}
+
+.encabezado__registrate {
+	background-color: rgb(52, 73, 168);
+	color: whitesmoke;
+	display: inline-block;
+	padding: 10px;
+	box-sizing: border-box;
+	text-align: center;
+	margin: 10px 5px;
+	border-radius: 1em;
+	 border: 5px inset gray;
+	 font-size: medium;
+}
+
+.encabezado__olvidemicontrasena {
+	background-color: rgb(52, 73, 168);
+	color: whitesmoke;
+	display: inline-block;
+	padding: 10px;
+	box-sizing: border-box;
+	text-align: center;
+	margin: 10px 5px;
+	border-radius: 1em;
+	 border: 5px inset gray;
+	 font-size: medium;
+}
+
+div ul li :hover ul {
+	display: block;
+}
+
+#pie {
+	display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    height: auto;
+}
+ 
+#redes {
+	display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: auto;
+    align-content:space-between;
+    align-items:center;
+	text-align:start;
+}
+
+
+#redes u {
+	color: #1900ffef;
+}
+
+#seguinos p {
+	display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: auto;
+    align-content:flex-start;
+    align-items: flex-start;
+	text-align:start;
+	font-size: large;
+}
+
+#direccion {
+	font-size: large;
+}
+
+.subtitulos {
+	display: flex;
+	flex-direction: column;
+    flex-wrap:wrap;
+    justify-content:flex-end;
+    height: auto;
+    align-content:flex-end;
+    align-items:flex-end;
+	text-align: center;
+}
+ 
+header, footer{
+    background-color: orange;
+    margin: auto;
+	height: auto;
+	width: auto;
+}
+
+nav {
+    background-color: rgb(152, 197, 248);
+    height: auto;
+	width: auto;
+}
+
+article, nav, aside, header, footer{
+    flex: 1;
+    padding: 2rem;
+    margin: 0px;
+}
+
+#padre-flex {
+	display: flex;
+	flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
+    height: auto;
+    align-content: center;
+    align-items: center;
+	text-align: center;
+ }
+
+ article, section {
+	 background-color: rgb(152, 197, 248);
+ }
+
+ .subtitulos, aside {
+	background-color: rgb(152, 197, 248);
+ }
+ 
+#videoy {
+	display: flexbox;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items:center;
+	justify-content:center;
+	text-align:center;
+	width: 450px;
+	height: 300px;	
+}
+
+.iframe {
+	display: flex;
+	flex-direction:row;
+    flex-wrap: wrap;
+    justify-content:center;
+    height: auto;
+    align-content:flex-start;
+    align-items:flex-start;
+	text-align: left;
+}
+
+.videoy {
+	display: flexbox;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items:center;
+	justify-content:center;
+	text-align:center;
+	width: 450px;
+	height: 400px;
+}
+
+#iso2 {
+	display: flexbox;
+	flex-direction:row;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    height: auto;
+    align-content:flex-end;
+    align-items:flex-end;
+	text-align: right;	
+}
+
+#derechos {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	text-align: center;
+}
+
+#local {
+	display: flexbox;
+	flex-direction:row;
+    flex-wrap: wrap;
+    justify-content:center;
+    height: auto;
+	width: auto;
+    align-content:center;
+    align-items:center;
+	text-align: center;
+}
+
+#grilla2 {
+    display: grid;
+    grid-template-areas:
+    "publicidad servicios";
+    grid-template-columns: auto;
+    grid-template-rows:auto;
+    grid-row-gap: 5px;
+   grid-column-gap: 10px;
+   height: auto;
+   margin: 0px;
+   width: auto;
+   justify-content:center;
+   align-items:center;
+   background-color: rgb(152, 197, 248);
+   justify-self: center;  
+}
+
+#grilla2 #publicidad {
+	grid-area: publicidad;
+    text-align:center;
+	height: 1450px;
+   margin: 0px;
+   width: auto;
+
+}
+
+#grilla2 #servicios {
+	grid-area: publicidad;
+    text-align:center;
+	height: 1400px;
+   margin: 0px;
+   width: auto;
+}
+
+#grilla2 {
+	display: flex;
+	flex-direction: row;
+}
+
+
+section#productos {
+    grid-area: productos;
+    width: 100%;
+    height: 10px;
+}
+
+section#servicios {
+    grid-area: servicios;
+    width: 100%;
+    height: 5px;
+	
+}
+
+.grilla2 servicios {
+    text-align: center;
+}
+
+section#publicidad {
+    grid-area: productos;
+    width: auto;
+    height: auto;
+}
+
+section#servicios {
+    grid-area: servicios;
+    width: auto;
+    height: auto;
+}
+
+#ambu {
+	display: flexbox;
+	position: relative;
+	flex-direction: row;
+	align-items: center;
+	align-content: center;
+	text-align: center;
+	height: 500px;
+	width: 900px;	
+}
+
+
+@media (orientation:portrait) {
+    .encabezado {
+        background-color: #080808;
+    }
+}
+
+@media (orientation:portrait) {
+    #grilla2 {
+        background-color: #080808;
+		font-size: larger;
+    }
+}
+
+@media (orientation:portrait) {
+    #piedepagina {
+        background-color: #080808;
+    }
+}
+
+.row {
+	background-color: rgb(152, 197, 248);;
+}
