@@ -21,11 +21,11 @@
 	
 </head>
 <body>
-	<header class="encabezado">	
-		<div id="padre-flex">
+	<header class="encabezado">	<!-- Comienzo del encabezado de mi sitio -->
+		<div id="padre-flex"> <!-- Flex contenedor -->
 			<nav>
 				<ul>
-					<a href="index.html" class="encabezado__index">Inicio</a> 
+					<a href="index.html" class="encabezado__index">Inicio</a>  
 					<a href="servicios.html" class="encabezado__servicios">Servicios</a>
 					<a href="capacitaciones.html" class="encabezado__capacitaciones">Capacitaciones</a>
 					<a href="nosotros.html" class="encabezado__nosotros">Nosotros</a>
@@ -36,50 +36,73 @@
 				</ul>	
 			</nav>
 		</div>						
-	</header>
-			<h1>
-				<b>Nosotros</b>
-			</h1>
-				<p>
-					Somos una empresa de emergencias médicas que estamos en este rubro desde hace más de dós décadas al servicio de la población.
-					Nuestro camino se inició en el año 1996 cuando dos hermanos médicos vieron la necesidad de fundar una empresa que puede estar las 24 horas los 365 días del año para las personas que lo necesitasen, de esta forma se inicia <b>Emergento SA.</b>
-				</p>
-<div>
+	</header> <!-- Fin del encabezado de mi sitio -->
+
+	<main> <!-- Inicio de mi contenido principal -->
+		<h1>
+		<h1>
+			<b>Nosotros</b>
+		</h1>
+			<p>
+				Somos una empresa de emergencias médicas que estamos en este rubro desde hace más de dós décadas al servicio de la población.
+				Nuestro camino se inició en el año 1996 cuando dos hermanos médicos vieron la necesidad de fundar una empresa que puede estar las 24 horas los 365 días del año para las personas que lo necesitasen, de esta forma se inicia <b>Emergento SA.</b></p>
+	</main> <!-- Fin de mi contenido principal -->
+	<!-- Inicio de pie de página -->
 	<footer class="piedepagina"> <!-- Flex contenedor -->
 		<div id="pie">	<!-- Flex hijo -->
-		<h4 class="piedepagina__h4" id="direccion">Dirección</h4>
-	</div>
-	<div id="local"> <!-- Flex hijo -->	
-			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.1875497248066!2d-58.41884028491984!3d-34.599418680460616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca8829527d69%3A0x444b51a3e056260a!2sLavalle%2C%20C1190%20AAS%2C%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1625709699981!5m2!1ses-419!2sar" width="auto" height="auto" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-	</div>
-		<br> 
-		<br>
-		<br>
-		<br>
-	<div id="seguinos">
-		<h5 class="seguinosenredes wow animate__bounceIn"><p><b>Seguinos en nuestras Redes Sociales</b></p></h5> 
-	</div>
-	<div id="redes">
-		<a href="https://facebook.com"><img src="IMG/face.png"></a><u><b>Facebook</b></u>
-		<br>
-		<a href="https://instagram.com"><img src="IMG/ig.png"></a><u><b>Instagram</b></u>	
-	</div>
-		<br> 
-		<br>
-		<br>
-		<br>
-		<br>	
-	<div id="iso2">
-		<img src="IMG/iso2.png" class="iso2">
-		<img src="IMG/datafiscal.jpg">
+			<h2 class="piedepagina__h4" id="direccion">Dirección</h2>
 		</div>
+		<div id="local"> <!-- Flex hijo -->	
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.1875497248066!2d-58.41884028491984!3d-34.599418680460616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca8829527d69%3A0x444b51a3e056260a!2sLavalle%2C%20C1190%20AAS%2C%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1625709699981!5m2!1ses-419!2sar" width="600" height="450" style="border-radius: 30px" allowfullscreen="" loading="lazy"></iframe>
+		</div>
+		<br> 
 		<br>
 		<br>
 		<br>
-	<div id="derechos">
-		<h6 class="piedepagina__h5"><b>EMERGENTO SA. Todos los Derechos reservados 2021</b></h6> 
-	</div>		
+		<div id="seguinos">
+			<h2 class="seguinosenredes wow animate__bounceIn"><p><b>Seguinos en nuestras Redes Sociales</b></p></h2> 
+		</div>
+		<div id="redes">
+			<a href="https://facebook.com"><img src="IMG/face.png"></a><u><b>Facebook</b></u>
+			<br>
+			<a href="https://instagram.com"><img src="IMG/ig.png"></a><u><b>Instagram</b></u>	
+		</div>
+			<br> 
+			<br>
+		<div class="grid-container"> <!-- Grid contenedor -->
+			<ul class="grid-item">	<!-- Grid hijo -->	
+				<a href=""><li><u><b>Trabajá con Nosotros</b></u></li></a>
+				<a href=""><li><u><b>Adjuntá tu Curriculum</b></u></li></a>
+				<a href=""><li><u><b>FAQ</b></u></li></a>
+				<a href=""><li><u><b>Legales</b></u></li></a>
+			</ul>
+			<ul class="grid-item">	<!-- Grid hijo -->	
+				<a href=""><li><u><b>Socios</b></u></li></a>
+				<a href=""><li><u><b>Noticias</b></u></li></a>
+				<a href=""><li><u><b>Centro de Capacitación</b></u></li></a>
+				<a href=""><li><u><b>Solicitar baja</b></u></li></a>
+			</ul>
+		</div>
+			<br>
+			<br>
+			<br>	
+		<div id="iso2">
+			<img src="IMG/iso2.png" class="iso2">
+			<img src="IMG/datafiscal.jpg">
+			</div>
+			<br>
+			<br>
+			<br>
+		<div id="derechos">
+			<h3 class="piedepagina__h5"><b>EMERGENTO SA. Todos los Derechos reservados 2021</b></h3> 
+		</div>	
 	</footer>
+	<!-- Finalización de pie de página-->
+	<!-- agregado de animación con js -->
+	<script src="js/wow.min.js"></script>
+	<script>
+	   new WOW().init();
+	</script>
 
 </body>
 </html>
